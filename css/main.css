@@ -315,12 +315,8 @@ input[type="button"] {
 }
 
 .reviews h2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   line-height: 1;
-}
-
-figure {
-  padding: 20px 0;
 }
 
 .reviews h3 {
@@ -338,7 +334,7 @@ figure {
 
 .map figure {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 125%;
   height: 0;
   width: 100%;
   overflow: hidden;
@@ -525,7 +521,11 @@ figure {
 
   /* Hero Area */
 
-  .her0-area h1 {
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
     font-size: 3em;
     line-height: 1;
     margin: 0%;
@@ -621,6 +621,10 @@ figure {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.6%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -695,7 +699,7 @@ figure {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -731,6 +735,10 @@ About Page
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
